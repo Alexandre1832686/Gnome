@@ -24,7 +24,6 @@ public class PlayerAttack : MonoBehaviour
             {
                 isAttacking = true;
                 StartCoroutine(attack());
-                
             }
         }
     }
@@ -33,10 +32,10 @@ public class PlayerAttack : MonoBehaviour
     {
         if (collision.tag == "Enemie" && collision.isTrigger == false)
         {
-            Debug.Log("ok3");
+            
             if (collision.GetComponent<Enemie>().canBeAttacked)
             {
-                Debug.Log("ok2");
+                
                 if (isAttacking)
                 {
                     collision.GetComponent<Enemie>().TakeDammage(Dammage);
