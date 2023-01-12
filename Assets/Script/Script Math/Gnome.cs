@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Gnome : MonoBehaviour
 {
@@ -24,7 +25,9 @@ public class Gnome : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
+     if(Input.GetKeyDown(KeyCode.E)) {
+            SceneManager.LoadScene("Level2");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
