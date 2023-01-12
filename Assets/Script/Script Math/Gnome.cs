@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Gnome : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Gnome : MonoBehaviour
     float inputHorizontal;
     float inputVertical;
     int vie = 3;
+    static int pieces = 0;
     List<GameObject> coeur = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
@@ -35,49 +37,75 @@ public class Gnome : MonoBehaviour
     {
         if (collision.tag == "Enemie")
         {
-            --vie;
+            vie--;
 
             AfficherVie();
+            
         }
         if (collision.tag == "HealKit")
         {
-            if (vie == 3)
+
+
+
+
+
+            vie++;
+            if (vie >= 3)
             {
 
                 AjouterVie();
             }
 
-            if (vie != 3)
-            {
-                vie++;
-            }
-
-
             AfficherVie();
+            
         }
-
+            Destroy(collision.gameObject);
     }
 
     private void AfficherVie()
     {
-        for (int y = 0; y < (coeur.Count - 1); y++)
+        for (int y = 0; y < (coeur.Count); y++)
         {
-            Debug.Log(coeur.Count);
+            Debug.Log("blanc");
             coeur[y].GetComponent<Renderer>().material.color = Color.white;
         }
 
         for (int y = 0; y < vie; y++)
         {
+            Debug.Log(vie);
             coeur[y].GetComponent<Renderer>().material.color = Color.red;
         }
     }
 
     private void AjouterVie()
     {
+        
         GameObject capsule = GameObject.CreatePrimitive(PrimitiveType.Capsule);
-        capsule.transform.SetPositionAndRotation(new Vector3(-6.5f, -4.149f, 0), Quaternion.Euler(0f, 0f, 0f));
+        capsule.transform.SetPositionAndRotation(new Vector3(GameObject.Find("Coeur(" + (coeur.Count - 1) + ")").transform.position.x + 1, -4.19f, 0), Quaternion.Euler(0f, 0f, 0f));
+        capsule.transform.localScale = new Vector3(0.6843657f, 0.3031606f,1f);
+        capsule.name = "Coeur("+(coeur.Count)+")";
         coeur.Add(GameObject.Find("Coeur(" + (coeur.Count - 1) + ")"));
-        Debug.Log(coeur.Count);
+
+        GameObject barreVie = GameObject.Find("BarreVie");
+        barreVie.transform.localScale = new Vector3(barreVie.transform.localScale.x+1f,barreVie.transform.localScale.y,1f);
+        barreVie.transform.position = new Vector3(barreVie.transform.position.x + 0.5f, barreVie.transform.position.y, 1f);
+
+
+    }
+
+    static public void RefreshUI()
+    {
+        if (Input.GetKeyDown("C"))
+        {
+            pieces++;
+        }
+        else if (Input.GetKeyDown("D"))
+        {
+            pieces--;
+        }
+
+
+
 
     }
 }
