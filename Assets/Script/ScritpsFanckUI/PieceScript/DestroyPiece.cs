@@ -17,6 +17,7 @@ public class DestroyPiece : MonoBehaviour
             else if (transform.parent.tag == "PieceArgent")
             {
                 Inventaire.instance.AjouterPieceArgent(1);
+
                 Destroy(transform.parent.gameObject);
             }
         }
