@@ -4,26 +4,24 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] float Speed;
+    float Speed;
     Transform Target;
-    float distanceToStop = 2;
+    float distanceToStop = 0.4f;
     Rigidbody2D rigidbody2d;
-   [SerializeField] GameObject test;
+   
 
     // Start is called before the first frame update
     void Start()
     {
         Target = null;
         rigidbody2d = GetComponent<Rigidbody2D>();
+        Speed = gameObject.GetComponent<Enemie>().speed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.W))
-        {
-            test.transform.position -= new Vector3(1, 0);
-        }
+        
 
 
 
@@ -35,7 +33,7 @@ public class EnemyMovement : MonoBehaviour
             {
                 Vector3 toTarg = (Target.position - transform.position).normalized;
                 // toTarg is now exactly what bullet.forwards would be if we aimed
-                rigidbody2d.velocity = toTarg * 3;
+                rigidbody2d.velocity = toTarg * Speed;
             }
             else
             {
@@ -51,7 +49,8 @@ public class EnemyMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Target = collision.transform;
+        if(collision.tag == "Player")
+            Target = collision.transform;
     }
 }
 
