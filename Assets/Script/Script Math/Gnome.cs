@@ -44,20 +44,8 @@ public class Gnome : MonoBehaviour
         }
         if (collision.tag == "HealKit")
         {
-
-
-
-
-
-            vie++;
-            if (vie >= 3)
-            {
-
-                AjouterVie();
-            }
-
+            AjouterVie();
             AfficherVie();
-            
         }
             Destroy(collision.gameObject);
     }
@@ -66,7 +54,7 @@ public class Gnome : MonoBehaviour
     {
         for (int y = 0; y < (coeur.Count); y++)
         {
-            Debug.Log("blanc");
+            Debug.Log(coeur.Count);
             coeur[y].GetComponent<Renderer>().material.color = Color.white;
         }
 
@@ -77,14 +65,16 @@ public class Gnome : MonoBehaviour
         }
     }
 
+    
     private void AjouterVie()
     {
-        
+        vie++;
         GameObject capsule = GameObject.CreatePrimitive(PrimitiveType.Capsule);
         capsule.transform.SetPositionAndRotation(new Vector3(GameObject.Find("Coeur(" + (coeur.Count - 1) + ")").transform.position.x + 1, -4.19f, 0), Quaternion.Euler(0f, 0f, 0f));
         capsule.transform.localScale = new Vector3(0.6843657f, 0.3031606f,1f);
         capsule.name = "Coeur("+(coeur.Count)+")";
-        coeur.Add(GameObject.Find("Coeur(" + (coeur.Count - 1) + ")"));
+        capsule.GetComponent<Renderer>().material.shader = GameObject.Find("Coeur(0)").GetComponent<Renderer>().material.shader;
+        coeur.Add(capsule);
 
         GameObject barreVie = GameObject.Find("BarreVie");
         barreVie.transform.localScale = new Vector3(barreVie.transform.localScale.x+1f,barreVie.transform.localScale.y,1f);
@@ -104,7 +94,7 @@ public class Gnome : MonoBehaviour
             pieces--;
         }
 
-
+        
 
 
     }
