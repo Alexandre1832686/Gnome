@@ -8,6 +8,7 @@ public class DestroyPiece : MonoBehaviour
     { 
         if(collision.tag=="Player")
         {
+            
             Destroy(transform.parent.gameObject);
         }
     }
