@@ -8,32 +8,29 @@ public class Player : MonoBehaviour
 
     
     public float mouveSpeed = 5f;
-    public Rigidbody2D rb;
-    //public Camera cam;
+    Rigidbody2D rb;
     Vector2 mouvement;
-   // Vector2 mousePos;
-    // Start is called before the first frame update
+    Vector2 mousePos;
+    
+    
+
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+   
+    void FixedUpdate()
     {
         mouvement.x = Input.GetAxis("Horizontal");
         mouvement.y = Input.GetAxis("Vertical");
+        rb.MovePosition(rb.position + mouvement * mouveSpeed * Time.fixedDeltaTime);
 
-        //GetComponent<Rigidbody2D>().MovePosition(transform.position + new Vector3(x, y) * Time.fixedDeltaTime * Speed);
-       
-       //mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 lookDir =mousePos-rb.position;
+       float angle = Mathf.Atan2(lookDir.y, lookDir.x)*Mathf.Rad2Deg -90f;
+       transform.GetChild(0).transform.rotation = Quaternion.Euler(0,0, angle);
     }
-    void FixedUpdate()
-    {
-         rb.MovePosition(rb.position + mouvement * mouveSpeed * Time.fixedDeltaTime);
 
-        //Vector2 lookDir=mousePos-rb.position;
-        //float angle = Mathf.Atan2(lookDir.y, lookDir.x)*Mathf.Rad2Deg -90f;
-       // transform.GetChild(0).GetComponent<Rigidbody2D>().rotation =angle;
-    }
+    
 }
