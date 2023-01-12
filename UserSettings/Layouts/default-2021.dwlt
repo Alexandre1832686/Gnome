@@ -16,10 +16,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43.2
-    width: 2048
-    height: 1060.8
+    width: 1536
+    height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Console
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 2048
-    height: 1010.80005
+    width: 1536
+    height: 722.8
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 87
+  controlID: 1108
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,23 +59,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1564
+    x: 1172.8
     y: 0
-    width: 484
-    height: 1010.80005
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+    width: 363.19995
+    height: 722.8
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,10 +93,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 386.4
-    height: 598.4
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 289.6
+    height: 428
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -118,11 +118,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 598.4
-    width: 1564
-    height: 412.40002
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+    y: 428
+    width: 1172.8
+    height: 294.8
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 13}
@@ -149,8 +149,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
-    height: 1060.8
+    width: 1536
+    height: 772.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -174,7 +174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -195,8 +195,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1040.8
-    width: 2048
+    y: 752.8
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1564
-    height: 1010.80005
+    width: 1172.8
+    height: 722.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 42
+  controlID: 43
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1564
-    height: 598.4
+    width: 1172.8
+    height: 428
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 43
+  controlID: 44
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,10 +265,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 386.4
+    x: 289.6
     y: 0
-    width: 1177.6
-    height: 598.4
+    width: 883.2001
+    height: 428
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -297,24 +297,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1564
+    x: 1172.8
     y: 73.6
-    width: 483
-    height: 989.80005
+    width: 362.19995
+    height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  progressMessageClearTime: 2339.5167578
+  progressMessageClearTime: 1474.6546673999999
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 5
-  activeTab: 5
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 4
+  activeTab: 4
   initProjectView:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
@@ -444,16 +444,6 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
-      - path: origin/main
-        label: main
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -471,10 +461,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-01-11T19:54:16.283-05:00
+      updatedTimeString: 2023-01-11T20:47:13.353-05:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-01-11T19:39:59.514-05:00
+      updatedTimeString: 2023-01-11T20:46:32.072-05:00
       cacheType: 1
     currentBranch:
       name: main
@@ -493,33 +483,271 @@ MonoBehaviour:
     remoteBranches:
     - name: origin/HEAD
       tracking: '[None]'
-    - name: origin/main
-      tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
-    currentBranch: '[unknown]'
+    currentBranch: '[main]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 131a6b21c8605f84396be9f6751fb6e3
+        - 17328276186b24d4fa0549b59d124355
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\Guillaume.unity
+          label: Guillaume.unity
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\Guillaume.unity
+            fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Guillaume.unity
+            projectPath: Assets\Scenes\Guillaume.unity
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
       folders:
-        keys: []
-        values: []
+        keys:
+        - Assets
+        - Assets\Scenes
+        - UserSettings
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
       title: 
-      pathSeparator: /
+      pathSeparator: \
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 1
       isUsingGlobalSelection: 1
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\Guillaume.unity
+        label: Guillaume.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\Guillaume.unity
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Guillaume.unity
+          projectPath: Assets\Scenes\Guillaume.unity
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes\Guillaume.unity.meta
+        label: Guillaume.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\Guillaume.unity.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Guillaume.unity.meta
+          projectPath: Assets\Scenes\Guillaume.unity.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -539,21 +767,225 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: Assets\Scenes\Guillaume.unity
+      fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Guillaume.unity
+      projectPath: Assets\Scenes\Guillaume.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\Guillaume.unity.meta
+      fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Guillaume.unity.meta
+      projectPath: Assets\Scenes\Guillaume.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 3 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-01-11T20:46:32.072-05:00
+      cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-01-11T20:47:10.481-05:00
+      cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-01-11T20:46:33.044-05:00
+      cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 12e1f935fea03ff1fc553472e2304826d212eef4
+      mergeA: 
+      mergeB: 
+      authorName: samuel1830803
+      authorEmail: 1830803@etu.cchic.ca
+      commitEmail: 1830803@etu.cchic.ca
+      commitName: samuel1830803
+      summary: samuel 20:42-11
+      description: asd
+      timeString: 2023-01-11T20:42:18.000-05:00
+      commitTimeString: 2023-01-11T20:42:18.000-05:00
+      changes:
+      - path: Assets\Scenes\samuel.unity
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\samuel.unity
+        projectPath: Assets\Scenes\samuel.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Script\scripSam\Player.cs
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\scripSam\Player.cs
+        projectPath: Assets\Script\scripSam\Player.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\scripSam\Player.cs.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\scripSam\Player.cs.meta
+        projectPath: Assets\Script\scripSam\Player.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UpgradeLog.htm
+        fullPath: C:\Users\Elaa\Desktop\Gnome\UpgradeLog.htm
+        projectPath: UpgradeLog.htm
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 327e4ba3217237fcace72aa596c4bd0625a40b6c
+      mergeA: f8a4a7c42616941c2d25c22c6b8a584493b7cac9
+      mergeB: 52a49966269ee0d9450654f985aeda033ba59722
+      authorName: Alexandre1832686
+      authorEmail: 1832686@etu.cchic.ca
+      commitEmail: 1832686@etu.cchic.ca
+      commitName: Alexandre1832686
+      summary: Merge branch 'main' of https://github.com/Alexandre1832686/Gnome
+      description: 
+      timeString: 2023-01-11T20:40:10.000-05:00
+      commitTimeString: 2023-01-11T20:40:10.000-05:00
+      changes: []
+    - commitID: f8a4a7c42616941c2d25c22c6b8a584493b7cac9
+      mergeA: 
+      mergeB: 
+      authorName: Alexandre1832686
+      authorEmail: 1832686@etu.cchic.ca
+      commitEmail: 1832686@etu.cchic.ca
+      commitName: Alexandre1832686
+      summary: popo 20h -11
+      description: adad
+      timeString: 2023-01-11T20:40:07.000-05:00
+      commitTimeString: 2023-01-11T20:40:07.000-05:00
+      changes:
+      - path: Assets\Scenes\Popo.unity
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Popo.unity
+        projectPath: Assets\Scenes\Popo.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Script\Popo.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\Popo.meta
+        projectPath: Assets\Script\Popo.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\Popo\EnemyMovement.cs
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\Popo\EnemyMovement.cs
+        projectPath: Assets\Script\Popo\EnemyMovement.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\Popo\EnemyMovement.cs.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\Popo\EnemyMovement.cs.meta
+        projectPath: Assets\Script\Popo\EnemyMovement.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 52a49966269ee0d9450654f985aeda033ba59722
+      mergeA: dbe72805ba9a4e5f8e0746eb478ba2a5faa80e00
+      mergeB: db7fe3bcf28059a1013faef9da065a1c0ab96594
+      authorName: Francis Blais
+      authorEmail: 2031420@etu.cchic.ca
+      commitEmail: 2031420@etu.cchic.ca
+      commitName: Francis Blais
+      summary: Merge branch 'main' of https://github.com/Alexandre1832686/Gnome
+      description: 
+      timeString: 2023-01-11T20:38:40.000-05:00
+      commitTimeString: 2023-01-11T20:38:40.000-05:00
+      changes: []
+    - commitID: dbe72805ba9a4e5f8e0746eb478ba2a5faa80e00
+      mergeA: 
+      mergeB: 
+      authorName: Francis Blais
+      authorEmail: 2031420@etu.cchic.ca
+      commitEmail: 2031420@etu.cchic.ca
+      commitName: Francis Blais
+      summary: 20:38-11
+      description: avancer ui princiaple
+      timeString: 2023-01-11T20:38:32.000-05:00
+      commitTimeString: 2023-01-11T20:38:32.000-05:00
+      changes:
+      - path: Assets\Scenes\Frankou.unity
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Frankou.unity
+        projectPath: Assets\Scenes\Frankou.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
+        projectPath: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: db7fe3bcf28059a1013faef9da065a1c0ab96594
+      mergeA: 
+      mergeB: 
+      authorName: samuel1830803
+      authorEmail: 1830803@etu.cchic.ca
+      commitEmail: 1830803@etu.cchic.ca
+      commitName: samuel1830803
+      summary: samuel 19:33-11
+      description: asd
+      timeString: 2023-01-11T19:34:10.000-05:00
+      commitTimeString: 2023-01-11T19:34:10.000-05:00
+      changes:
+      - path: Assets\Scenes\samuel.unity
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\samuel.unity
+        projectPath: Assets\Scenes\samuel.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\samuel.unity.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\samuel.unity.meta
+        projectPath: Assets\Scenes\samuel.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\scripSam.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\scripSam.meta
+        projectPath: Assets\Script\scripSam.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\antiter.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\antiter.meta
+        projectPath: Assets\antiter.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\antiter\Player.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\antiter\Player.meta
+        projectPath: Assets\antiter\Player.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     - commitID: e82f25365a259549e4770ac39792148cca8c89b7
       mergeA: f16e6b804078a030f0c398c503c64cf87785273a
       mergeB: 3c082c281eb7a725f324cacccbcffd1b1fd14d62
@@ -579,61 +1011,61 @@ MonoBehaviour:
       commitTimeString: 2023-01-11T19:28:59.000-05:00
       changes:
       - path: Assets\Scenes\Frankou.unity
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Frankou.unity
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Frankou.unity
         projectPath: Assets\Scenes\Frankou.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\Frankou.unity.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Frankou.unity.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Frankou.unity.meta
         projectPath: Assets\Scenes\Frankou.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Script.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script.meta
         projectPath: Assets\Script.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Script\ScritpsFanckUI.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script\ScritpsFanckUI.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI.meta
         projectPath: Assets\Script\ScritpsFanckUI.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Script\ScritpsFanckUI\StartUpMenu.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu.meta
         projectPath: Assets\Script\ScritpsFanckUI\StartUpMenu.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
         projectPath: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs.meta
         projectPath: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\SceneTemplateSettings.json
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\SceneTemplateSettings.json
         projectPath: ProjectSettings\SceneTemplateSettings.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\EditorUserSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\EditorUserSettings.asset
         projectPath: UserSettings\EditorUserSettings.asset
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
       - path: UserSettings\Layouts\default-2021.dwlt
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Layouts\default-2021.dwlt
         projectPath: UserSettings\Layouts\default-2021.dwlt
         originalPath: 
         indexStatus: 3
@@ -651,13 +1083,13 @@ MonoBehaviour:
       commitTimeString: 2023-01-11T19:26:37.000-05:00
       changes:
       - path: Assets\Scenes\Popo.unity
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Popo.unity
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Popo.unity
         projectPath: Assets\Scenes\Popo.unity
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
       - path: ProjectSettings\SceneTemplateSettings.json
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\SceneTemplateSettings.json
         projectPath: ProjectSettings\SceneTemplateSettings.json
         originalPath: 
         indexStatus: 4
@@ -675,523 +1107,523 @@ MonoBehaviour:
       commitTimeString: 2023-01-11T19:08:03.000-05:00
       changes:
       - path: .vsconfig
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\.vsconfig
+        fullPath: C:\Users\Elaa\Desktop\Gnome\.vsconfig
         projectPath: .vsconfig
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins.meta
         projectPath: Assets\Plugins.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub.meta
         projectPath: Assets\Plugins\GitHub.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor.meta
         projectPath: Assets\Plugins\GitHub\Editor.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
         projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
         projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
         projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
         projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
         projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
         projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
         projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\System.Threading.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\System.Threading.dll
         projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
         projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
         projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\big-logo@2x.png
         projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
         projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\credits.txt
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\credits.txt
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\credits.txt
         projectPath: Assets\Plugins\GitHub\Editor\credits.txt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\credits.txt.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\credits.txt.meta
         projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\eula.txt
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\eula.txt
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\eula.txt
         projectPath: Assets\Plugins\GitHub\Editor\eula.txt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\eula.txt.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\eula.txt.meta
         projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\libsfw.bundle
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\libsfw.bundle
         projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
         projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\libsfw.so
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\libsfw.so
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\libsfw.so
         projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\libsfw.so.meta
         projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\sfw.net.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\sfw.net.dll
         projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x64.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64.meta
         projectPath: Assets\Plugins\GitHub\Editor\x64.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
         projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
         projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x86.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86.meta
         projectPath: Assets\Plugins\GitHub\Editor\x86.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
         projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
         projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
         projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Resources.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Resources.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Resources.meta
         projectPath: Assets\Resources.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Resources\BillingMode.json
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Resources\BillingMode.json
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Resources\BillingMode.json
         projectPath: Assets\Resources\BillingMode.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Resources\BillingMode.json.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Resources\BillingMode.json.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Resources\BillingMode.json.meta
         projectPath: Assets\Resources\BillingMode.json.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes.meta
         projectPath: Assets\Scenes.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\Popo.unity
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Popo.unity
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Popo.unity
         projectPath: Assets\Scenes\Popo.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\Popo.unity.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Popo.unity.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Popo.unity.meta
         projectPath: Assets\Scenes\Popo.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\SampleScene.unity
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\SampleScene.unity
         projectPath: Assets\Scenes\SampleScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\SampleScene.unity.meta
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\SampleScene.unity.meta
         projectPath: Assets\Scenes\SampleScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\manifest.json
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Packages\manifest.json
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Packages\manifest.json
         projectPath: Packages\manifest.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\packages-lock.json
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Packages\packages-lock.json
+        fullPath: C:\Users\Elaa\Desktop\Gnome\Packages\packages-lock.json
         projectPath: Packages\packages-lock.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\AudioManager.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\AudioManager.asset
         projectPath: ProjectSettings\AudioManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\ClusterInputManager.asset
         projectPath: ProjectSettings\ClusterInputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\DynamicsManager.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\DynamicsManager.asset
         projectPath: ProjectSettings\DynamicsManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\EditorBuildSettings.asset
         projectPath: ProjectSettings\EditorBuildSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\EditorSettings.asset
         projectPath: ProjectSettings\EditorSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\GraphicsSettings.asset
         projectPath: ProjectSettings\GraphicsSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\InputManager.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\InputManager.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\InputManager.asset
         projectPath: ProjectSettings\InputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\MemorySettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\MemorySettings.asset
         projectPath: ProjectSettings\MemorySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\NavMeshAreas.asset
         projectPath: ProjectSettings\NavMeshAreas.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NetworkManager.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\NetworkManager.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\NetworkManager.asset
         projectPath: ProjectSettings\NetworkManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\PackageManagerSettings.asset
         projectPath: ProjectSettings\PackageManagerSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\Physics2DSettings.asset
         projectPath: ProjectSettings\Physics2DSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PresetManager.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\PresetManager.asset
         projectPath: ProjectSettings\PresetManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\ProjectSettings.asset
         projectPath: ProjectSettings\ProjectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectVersion.txt
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\ProjectVersion.txt
         projectPath: ProjectSettings\ProjectVersion.txt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\QualitySettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\QualitySettings.asset
         projectPath: ProjectSettings\QualitySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TagManager.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\TagManager.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\TagManager.asset
         projectPath: ProjectSettings\TagManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TimeManager.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\TimeManager.asset
         projectPath: ProjectSettings\TimeManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\UnityConnectSettings.asset
         projectPath: ProjectSettings\UnityConnectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VFXManager.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\VFXManager.asset
         projectPath: ProjectSettings\VFXManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\VersionControlSettings.asset
         projectPath: ProjectSettings\VersionControlSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\XRSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\XRSettings.asset
         projectPath: ProjectSettings\XRSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\boot.config
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\boot.config
+        fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\boot.config
         projectPath: ProjectSettings\boot.config
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\EditorUserSettings.asset
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\EditorUserSettings.asset
         projectPath: UserSettings\EditorUserSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Layouts\default-2021.dwlt
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Layouts\default-2021.dwlt
         projectPath: UserSettings\Layouts\default-2021.dwlt
         originalPath: 
         indexStatus: 4
@@ -1209,27 +1641,213 @@ MonoBehaviour:
       commitTimeString: 2023-01-11T18:59:43.000-05:00
       changes:
       - path: .gitignore
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\.gitignore
+        fullPath: C:\Users\Elaa\Desktop\Gnome\.gitignore
         projectPath: .gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: README.md
-        fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\README.md
+        fullPath: C:\Users\Elaa\Desktop\Gnome\README.md
         projectPath: README.md
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-01-11T19:54:14.161-05:00
+      updatedTimeString: 2023-01-11T20:47:12.468-05:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-01-11T20:46:32.622-05:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 12e1f935fea03ff1fc553472e2304826d212eef4
+        mergeA: 
+        mergeB: 
+        authorName: samuel1830803
+        authorEmail: 1830803@etu.cchic.ca
+        commitEmail: 1830803@etu.cchic.ca
+        commitName: samuel1830803
+        summary: samuel 20:42-11
+        description: asd
+        timeString: 2023-01-11T20:42:18.000-05:00
+        commitTimeString: 2023-01-11T20:42:18.000-05:00
+        changes:
+        - path: Assets\Scenes\samuel.unity
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\samuel.unity
+          projectPath: Assets\Scenes\samuel.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Script\scripSam\Player.cs
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\scripSam\Player.cs
+          projectPath: Assets\Script\scripSam\Player.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\scripSam\Player.cs.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\scripSam\Player.cs.meta
+          projectPath: Assets\Script\scripSam\Player.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UpgradeLog.htm
+          fullPath: C:\Users\Elaa\Desktop\Gnome\UpgradeLog.htm
+          projectPath: UpgradeLog.htm
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 327e4ba3217237fcace72aa596c4bd0625a40b6c
+        mergeA: f8a4a7c42616941c2d25c22c6b8a584493b7cac9
+        mergeB: 52a49966269ee0d9450654f985aeda033ba59722
+        authorName: Alexandre1832686
+        authorEmail: 1832686@etu.cchic.ca
+        commitEmail: 1832686@etu.cchic.ca
+        commitName: Alexandre1832686
+        summary: Merge branch 'main' of https://github.com/Alexandre1832686/Gnome
+        description: 
+        timeString: 2023-01-11T20:40:10.000-05:00
+        commitTimeString: 2023-01-11T20:40:10.000-05:00
+        changes: []
+      - commitID: f8a4a7c42616941c2d25c22c6b8a584493b7cac9
+        mergeA: 
+        mergeB: 
+        authorName: Alexandre1832686
+        authorEmail: 1832686@etu.cchic.ca
+        commitEmail: 1832686@etu.cchic.ca
+        commitName: Alexandre1832686
+        summary: popo 20h -11
+        description: adad
+        timeString: 2023-01-11T20:40:07.000-05:00
+        commitTimeString: 2023-01-11T20:40:07.000-05:00
+        changes:
+        - path: Assets\Scenes\Popo.unity
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Popo.unity
+          projectPath: Assets\Scenes\Popo.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Script\Popo.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\Popo.meta
+          projectPath: Assets\Script\Popo.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\Popo\EnemyMovement.cs
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\Popo\EnemyMovement.cs
+          projectPath: Assets\Script\Popo\EnemyMovement.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\Popo\EnemyMovement.cs.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\Popo\EnemyMovement.cs.meta
+          projectPath: Assets\Script\Popo\EnemyMovement.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 52a49966269ee0d9450654f985aeda033ba59722
+        mergeA: dbe72805ba9a4e5f8e0746eb478ba2a5faa80e00
+        mergeB: db7fe3bcf28059a1013faef9da065a1c0ab96594
+        authorName: Francis Blais
+        authorEmail: 2031420@etu.cchic.ca
+        commitEmail: 2031420@etu.cchic.ca
+        commitName: Francis Blais
+        summary: Merge branch 'main' of https://github.com/Alexandre1832686/Gnome
+        description: 
+        timeString: 2023-01-11T20:38:40.000-05:00
+        commitTimeString: 2023-01-11T20:38:40.000-05:00
+        changes: []
+      - commitID: dbe72805ba9a4e5f8e0746eb478ba2a5faa80e00
+        mergeA: 
+        mergeB: 
+        authorName: Francis Blais
+        authorEmail: 2031420@etu.cchic.ca
+        commitEmail: 2031420@etu.cchic.ca
+        commitName: Francis Blais
+        summary: 20:38-11
+        description: avancer ui princiaple
+        timeString: 2023-01-11T20:38:32.000-05:00
+        commitTimeString: 2023-01-11T20:38:32.000-05:00
+        changes:
+        - path: Assets\Scenes\Frankou.unity
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Frankou.unity
+          projectPath: Assets\Scenes\Frankou.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
+          projectPath: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: db7fe3bcf28059a1013faef9da065a1c0ab96594
+        mergeA: 
+        mergeB: 
+        authorName: samuel1830803
+        authorEmail: 1830803@etu.cchic.ca
+        commitEmail: 1830803@etu.cchic.ca
+        commitName: samuel1830803
+        summary: samuel 19:33-11
+        description: asd
+        timeString: 2023-01-11T19:34:10.000-05:00
+        commitTimeString: 2023-01-11T19:34:10.000-05:00
+        changes:
+        - path: Assets\Scenes\samuel.unity
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\samuel.unity
+          projectPath: Assets\Scenes\samuel.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\samuel.unity.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\samuel.unity.meta
+          projectPath: Assets\Scenes\samuel.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Script\scripSam.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\scripSam.meta
+          projectPath: Assets\Script\scripSam.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\antiter.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\antiter.meta
+          projectPath: Assets\antiter.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\antiter\Player.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\antiter\Player.meta
+          projectPath: Assets\antiter\Player.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - commitID: e82f25365a259549e4770ac39792148cca8c89b7
         mergeA: f16e6b804078a030f0c398c503c64cf87785273a
         mergeB: 3c082c281eb7a725f324cacccbcffd1b1fd14d62
@@ -1255,61 +1873,61 @@ MonoBehaviour:
         commitTimeString: 2023-01-11T19:28:59.000-05:00
         changes:
         - path: Assets\Scenes\Frankou.unity
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Frankou.unity
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Frankou.unity
           projectPath: Assets\Scenes\Frankou.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\Frankou.unity.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Frankou.unity.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Frankou.unity.meta
           projectPath: Assets\Scenes\Frankou.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Script.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script.meta
           projectPath: Assets\Script.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Script\ScritpsFanckUI.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script\ScritpsFanckUI.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI.meta
           projectPath: Assets\Script\ScritpsFanckUI.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Script\ScritpsFanckUI\StartUpMenu.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu.meta
           projectPath: Assets\Script\ScritpsFanckUI\StartUpMenu.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
           projectPath: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs.meta
           projectPath: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\SceneTemplateSettings.json
           projectPath: ProjectSettings\SceneTemplateSettings.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\EditorUserSettings.asset
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
         - path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Layouts\default-2021.dwlt
           projectPath: UserSettings\Layouts\default-2021.dwlt
           originalPath: 
           indexStatus: 3
@@ -1327,13 +1945,13 @@ MonoBehaviour:
         commitTimeString: 2023-01-11T19:26:37.000-05:00
         changes:
         - path: Assets\Scenes\Popo.unity
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Popo.unity
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Popo.unity
           projectPath: Assets\Scenes\Popo.unity
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
         - path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\SceneTemplateSettings.json
           projectPath: ProjectSettings\SceneTemplateSettings.json
           originalPath: 
           indexStatus: 4
@@ -1351,523 +1969,523 @@ MonoBehaviour:
         commitTimeString: 2023-01-11T19:08:03.000-05:00
         changes:
         - path: .vsconfig
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\.vsconfig
+          fullPath: C:\Users\Elaa\Desktop\Gnome\.vsconfig
           projectPath: .vsconfig
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins.meta
           projectPath: Assets\Plugins.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub.meta
           projectPath: Assets\Plugins\GitHub.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor.meta
           projectPath: Assets\Plugins\GitHub\Editor.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
           projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
           projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
           projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
           projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
           projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
           projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
           projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\System.Threading.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\System.Threading.dll
           projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
           projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
           projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\big-logo@2x.png
           projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
           projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\credits.txt
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\credits.txt
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\credits.txt
           projectPath: Assets\Plugins\GitHub\Editor\credits.txt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\credits.txt.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\credits.txt.meta
           projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\eula.txt
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\eula.txt
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\eula.txt
           projectPath: Assets\Plugins\GitHub\Editor\eula.txt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\eula.txt.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\eula.txt.meta
           projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\libsfw.bundle
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\libsfw.bundle
           projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
           projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\libsfw.so
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\libsfw.so
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\libsfw.so
           projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\libsfw.so.meta
           projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\sfw.net.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\sfw.net.dll
           projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x64.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64.meta
           projectPath: Assets\Plugins\GitHub\Editor\x64.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
           projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
           projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x86.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86.meta
           projectPath: Assets\Plugins\GitHub\Editor\x86.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
           projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
           projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
           projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Resources.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Resources.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Resources.meta
           projectPath: Assets\Resources.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Resources\BillingMode.json
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Resources\BillingMode.json
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Resources\BillingMode.json
           projectPath: Assets\Resources\BillingMode.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Resources\BillingMode.json.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Resources\BillingMode.json.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Resources\BillingMode.json.meta
           projectPath: Assets\Resources\BillingMode.json.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes.meta
           projectPath: Assets\Scenes.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\Popo.unity
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Popo.unity
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Popo.unity
           projectPath: Assets\Scenes\Popo.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\Popo.unity.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Popo.unity.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Popo.unity.meta
           projectPath: Assets\Scenes\Popo.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\SampleScene.unity
           projectPath: Assets\Scenes\SampleScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\SampleScene.unity.meta
           projectPath: Assets\Scenes\SampleScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\manifest.json
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Packages\manifest.json
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Packages\manifest.json
           projectPath: Packages\manifest.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\packages-lock.json
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Packages\packages-lock.json
+          fullPath: C:\Users\Elaa\Desktop\Gnome\Packages\packages-lock.json
           projectPath: Packages\packages-lock.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\AudioManager.asset
           projectPath: ProjectSettings\AudioManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\ClusterInputManager.asset
           projectPath: ProjectSettings\ClusterInputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\DynamicsManager.asset
           projectPath: ProjectSettings\DynamicsManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\EditorBuildSettings.asset
           projectPath: ProjectSettings\EditorBuildSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\EditorSettings.asset
           projectPath: ProjectSettings\EditorSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\GraphicsSettings.asset
           projectPath: ProjectSettings\GraphicsSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\InputManager.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\InputManager.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\InputManager.asset
           projectPath: ProjectSettings\InputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\MemorySettings.asset
           projectPath: ProjectSettings\MemorySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\NavMeshAreas.asset
           projectPath: ProjectSettings\NavMeshAreas.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NetworkManager.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\NetworkManager.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\NetworkManager.asset
           projectPath: ProjectSettings\NetworkManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\PackageManagerSettings.asset
           projectPath: ProjectSettings\PackageManagerSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\Physics2DSettings.asset
           projectPath: ProjectSettings\Physics2DSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\PresetManager.asset
           projectPath: ProjectSettings\PresetManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\ProjectSettings.asset
           projectPath: ProjectSettings\ProjectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\ProjectVersion.txt
           projectPath: ProjectSettings\ProjectVersion.txt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\QualitySettings.asset
           projectPath: ProjectSettings\QualitySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\TagManager.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\TagManager.asset
           projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\TimeManager.asset
           projectPath: ProjectSettings\TimeManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\UnityConnectSettings.asset
           projectPath: ProjectSettings\UnityConnectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\VFXManager.asset
           projectPath: ProjectSettings\VFXManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\VersionControlSettings.asset
           projectPath: ProjectSettings\VersionControlSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\XRSettings.asset
           projectPath: ProjectSettings\XRSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\boot.config
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\ProjectSettings\boot.config
+          fullPath: C:\Users\Elaa\Desktop\Gnome\ProjectSettings\boot.config
           projectPath: ProjectSettings\boot.config
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\EditorUserSettings.asset
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\Layouts\default-2021.dwlt
           projectPath: UserSettings\Layouts\default-2021.dwlt
           originalPath: 
           indexStatus: 4
@@ -1885,13 +2503,13 @@ MonoBehaviour:
         commitTimeString: 2023-01-11T18:59:43.000-05:00
         changes:
         - path: .gitignore
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\.gitignore
+          fullPath: C:\Users\Elaa\Desktop\Gnome\.gitignore
           projectPath: .gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: README.md
-          fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\README.md
+          fullPath: C:\Users\Elaa\Desktop\Gnome\README.md
           projectPath: README.md
           originalPath: 
           indexStatus: 4
@@ -1950,15 +2568,15 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: C:\Users\franc\AppData\Local\GitHubUnity\git\cmd\git.exe
-      gitLfsPath: C:\Users\franc\AppData\Local\GitHubUnity\git-lfs\git-lfs.exe
+      gitPath: C:\Users\Elaa\AppData\Local\GitHubUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\Elaa\AppData\Local\GitHubUnity\git-lfs\git-lfs.exe
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-01-11T20:21:13.146-05:00
+      updatedTimeString: 2023-01-11T20:46:32.072-05:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/Alexandre1832686/Gnome.git
@@ -1966,13 +2584,13 @@ MonoBehaviour:
     repositoryRemoteUrl: https://github.com/Alexandre1832686/Gnome.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: Francis Blais
-      gitEmail: 2031420@etu.cchic.ca
-      newGitName: Francis Blais
-      newGitEmail: 2031420@etu.cchic.ca
+      gitName: Famous Bald Guy
+      gitEmail: 112105406+1533601@users.noreply.github.com
+      newGitName: Famous Bald Guy
+      newGitEmail: 112105406+1533601@users.noreply.github.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2023-01-11T20:32:42.606-05:00
+        updatedTimeString: 2023-01-11T20:46:32.132-05:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -2001,25 +2619,31 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 janv. 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-01-11T19:39:59.514-05:00
+      updatedTimeString: 2023-01-11T20:46:32.072-05:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-01-11T20:46:33.044-05:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-01-11T20:47:11.536-05:00
       cacheType: 6
     lockedFiles: []
     gitStatusEntries:
-    - path: Assets\Scenes\Frankou.unity
-      fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Scenes\Frankou.unity
-      projectPath: Assets\Scenes\Frankou.unity
+    - path: Assets\Scenes\Guillaume.unity
+      fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Guillaume.unity
+      projectPath: Assets\Scenes\Guillaume.unity
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
-      fullPath: C:\Users\franc\Desktop\RepoGameJam\Gnome\Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
-      projectPath: Assets\Script\ScritpsFanckUI\StartUpMenu\PlayGame.cs
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\Guillaume.unity.meta
+      fullPath: C:\Users\Elaa\Desktop\Gnome\Assets\Scenes\Guillaume.unity.meta
+      projectPath: Assets\Scenes\Guillaume.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\Elaa\Desktop\Gnome\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -2037,7 +2661,7 @@ MonoBehaviour:
   currentBranch: main
   currentRemoteUrl: https://github.com/Alexandre1832686/Gnome.git
   statusAhead: 0
-  statusBehind: 1
+  statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
@@ -2049,13 +2673,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-01-11T20:21:13.146-05:00
+    updatedTimeString: 2023-01-11T20:46:32.072-05:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-01-11T20:21:15.107-05:00
+    updatedTimeString: 2023-01-11T21:15:26.859-05:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-01-11T20:38:01.080-05:00
+    updatedTimeString: 2023-01-11T21:24:09.589-05:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2100,9 +2724,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 672
-    width: 1563
-    height: 391.40002
+    y: 501.6
+    width: 1171.8
+    height: 273.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2120,22 +2744,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/ScritpsFanckUI/StartUpMenu
+    - Assets/Script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script/ScritpsFanckUI/StartUpMenu
+  - Assets/Script
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\franc\Desktop\RepoGameJam\Gnome
+  m_LastProjectPath: C:\Users\Elaa\Desktop\Gnome
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4c660000
-    m_LastClickedID: 26188
-    m_ExpandedIDs: 000000004a660000
+    scrollPos: {x: 0, y: 2.2000122}
+    m_SelectedIDs: fa9f0000
+    m_LastClickedID: 40954
+    m_ExpandedIDs: 00000000f09f000090b20000aeb2000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2163,7 +2787,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004a660000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2188,9 +2812,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b8650000
-    m_LastClickedInstanceID: 26040
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 76a2ffff
+    m_LastClickedInstanceID: -23946
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2207,7 +2831,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2239,10 +2863,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1564
+    x: 1172.8
     y: 73.6
-    width: 483
-    height: 989.80005
+    width: 362.19995
+    height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2282,8 +2906,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 385.4
-    height: 577.4
+    width: 288.6
+    height: 407
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2291,9 +2915,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fa650000
-      m_LastClickedID: 26106
-      m_ExpandedIDs: 2afbfffff4fffffffa65000018660000
+      m_SelectedIDs: 48b6ffff
+      m_LastClickedID: -18872
+      m_ExpandedIDs: 54b6ffff66b6ffffe8bbffff74bdffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2337,10 +2961,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 386.4
+    x: 289.6
     y: 73.6
-    width: 1175.6
-    height: 577.4
+    width: 881.2001
+    height: 407
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2351,7 +2975,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.599976}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -2597,9 +3221,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 821.1909, y: 176.87408, z: 5.748873}
+    m_Target: {x: 0.8753663, y: -5.948188, z: 108.64901}
     speed: 2
-    m_Value: {x: 821.777, y: 180.12518, z: 5.652596}
+    m_Value: {x: 0.8753663, y: -5.948188, z: 108.64901}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2650,9 +3274,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 204.32104
+    m_Target: 16.40161
     speed: 2
-    m_Value: 213.94875
+    m_Value: 16.40161
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2697,10 +3321,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 386.4
+    x: 289.6
     y: 73.6
-    width: 1175.6
-    height: 577.4
+    width: 881.2001
+    height: 407
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2711,7 +3335,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1175.6, y: 556.4}
+  m_TargetSize: {x: 881.2001, y: 386}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2726,19 +3350,19 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -470.24
-    m_HBaseRangeMax: 470.24
-    m_VBaseRangeMin: -222.56001
-    m_VBaseRangeMax: 222.56001
+    m_HBaseRangeMin: -352.48004
+    m_HBaseRangeMax: 352.48004
+    m_VBaseRangeMin: -154.40001
+    m_VBaseRangeMax: 154.40001
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -2747,23 +3371,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1175.6
-      height: 556.4
-    m_Scale: {x: 1.3842336, y: 1.3842336}
-    m_Translation: {x: 584.5166, y: 289.92255}
+      width: 881.2001
+      height: 386
+    m_Scale: {x: 1.3024254, y: 1.3024254}
+    m_Translation: {x: 439.31912, y: 201.0945}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -422.2673
-      y: -209.44626
-      width: 849.2786
-      height: 401.9553
+      x: -337.30847
+      y: -154.40001
+      width: 676.5839
+      height: 296.37015
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1469.5, y: 721.75}
+  m_LastWindowPixelSize: {x: 1101.5001, y: 508.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -2790,9 +3414,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 672
-    width: 1563
-    height: 391.40002
+    y: 501.6
+    width: 1171.8
+    height: 273.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
