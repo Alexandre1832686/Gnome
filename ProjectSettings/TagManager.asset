@@ -5,9 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemie
+<<<<<<< Updated upstream
   - Undefined
   - PieceArgent
   - PieceGnome
+=======
+  - HealKit
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
