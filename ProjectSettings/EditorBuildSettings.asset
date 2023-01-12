@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Frankou.unity
+    guid: 7166b906749dde941aafada2fdefeb2f
+  - enabled: 1
+    path: Assets/Scenes/Guillaume.unity
+    guid: 17328276186b24d4fa0549b59d124355
   - enabled: 1
     path: Assets/map/Level1.unity
     guid: f17bdf66a081eaa4db3f2c9bc886e5f2
+  - enabled: 1
+    path: Assets/map/Level5.unity
+    guid: 1e7ba1f155f541d4bb8f19a4ddb3212d
   m_configObjects: {}
