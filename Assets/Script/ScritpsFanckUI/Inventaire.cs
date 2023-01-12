@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Inventaire : MonoBehaviour
 {
-    [SerializeField]  int pieceM=0;
     [SerializeField]   int pieceGnome=0;
     
     public static Inventaire instance;
@@ -19,10 +18,6 @@ public class Inventaire : MonoBehaviour
         instance = this;
     }
 
-    public void AjouterPieceArgent(int count)
-    {
-        pieceM+=count;
-    }
     public void AjouterPieceGnome(int count)
     {
         pieceGnome += count;
