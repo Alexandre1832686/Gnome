@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ButtonManager : MonoBehaviour
 {
+    Timer timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +19,8 @@ public class ButtonManager : MonoBehaviour
 
     public void Menu()
     {
-        GameObject timer = GameObject.Find("Square");
+        GameObject timer = GameObject.Find("Barre");
         Timer time = timer.GetComponent<Timer>();
-
         time.PauseTimer();
     }
 }
