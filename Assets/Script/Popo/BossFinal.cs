@@ -43,8 +43,6 @@ public class BossFinal : Enemie
         {
             Doight.transform.position = Vector2.MoveTowards(transform.position, DoightPositionRepos, 30 * Time.deltaTime);
         }
-
-        
     }
 
     IEnumerator Attack()
@@ -55,12 +53,13 @@ public class BossFinal : Enemie
 
         Destroy(shadow);
         doightCanMove = true;
+        yield return new WaitForSecondsRealtime(0.2f);
+        if (Vector2.Distance(transform.position, Player.transform.position) <= 2)
+        {
+            Player.GetComponent<Gnome>().retirerVie();
+        }
         yield return new WaitForSeconds(3);
         doightCanMove = false;
-        if(Vector2.Distance(transform.position,Player.transform.position)<=2)
-        {
-            //Player.GetComponent<Gnome>().RetirerVie();
-        }
         StartCoroutine(Attack());
     }
 
