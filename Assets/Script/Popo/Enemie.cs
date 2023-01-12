@@ -6,6 +6,10 @@ public class Enemie : MonoBehaviour
 {
     float hpMax;
     float hpActu;
+    public Material invincibleMaterial;
+    public bool canBeAttacked;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +21,7 @@ public class Enemie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public void TakeDammage(float dammage)
@@ -25,11 +29,12 @@ public class Enemie : MonoBehaviour
         hpActu -= dammage;
         if (hpActu <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
         RefreshUI();
-
-
+        
+        canBeAttacked = false;
+        StartCoroutine(Invincible());
     }
 
     void RefreshUI()
@@ -37,4 +42,22 @@ public class Enemie : MonoBehaviour
 
     }
 
+    IEnumerator Invincible()
+    {
+        Material myMaterial = GetComponent<SpriteRenderer>().material;
+        GetComponent<SpriteRenderer>().material = invincibleMaterial;
+        yield return new WaitForSeconds(2);
+        GetComponent<SpriteRenderer>().material = myMaterial;
+        canBeAttacked = true;
+    }
+
+    void Die()
+    {
+        int i = Random.Range(0, 100);
+        if(i>70)
+        {
+            Instantiate((GameObject)Resources.Load("Prefab/Piece") as GameObject, transform.position, Quaternion.identity);
+        }
+        Destroy(gameObject);
+    }
 }
