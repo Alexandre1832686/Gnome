@@ -7,14 +7,14 @@ public class PlayGame : MonoBehaviour
 {
     [SerializeField] GameObject menuPrincipale;
     [SerializeField] GameObject optionMenu;
-    [SerializeField] GameObject SelectLevel;
+    [SerializeField] GameObject selectLevel;
 
 
     private void Start()
     {
         menuPrincipale.SetActive(true);
         optionMenu.SetActive(false);
-        SelectLevel.SetActive(false);
+        selectLevel.SetActive(false);
     }
     /// <summary>
     /// Desactive l'objet donner et affiche celui donner
@@ -39,7 +39,7 @@ public class PlayGame : MonoBehaviour
         }
         else
         {
-            SelectLevel.SetActive(false);
+            selectLevel.SetActive(false);
             menuPrincipale.SetActive(true);
         }
         
@@ -48,6 +48,11 @@ public class PlayGame : MonoBehaviour
     {
         menuPrincipale.SetActive(false);
         optionMenu.SetActive(true);
+    }
+    public void GoToLevelSel()
+    {
+        menuPrincipale.SetActive(false);
+        selectLevel.SetActive(true);
     }
     public void QuitGame()
     {
