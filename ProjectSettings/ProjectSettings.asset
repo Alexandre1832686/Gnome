@@ -664,11 +664,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 99f9c66d-33dc-40c2-b49e-618c4d06c111
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Gnome
+  organizationId: alexandreperron
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
