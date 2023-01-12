@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CoinMagnet : MonoBehaviour
 {
-    [SerializeField] GameObject player;
+    GameObject player;
     [SerializeField] float speed = 1.5f ;
     float timestamp;
     bool flyToPlayer=false;
@@ -15,6 +15,7 @@ public class CoinMagnet : MonoBehaviour
         if(collision.tag=="Player")
         {
             flyToPlayer = true;
+            player = collision.gameObject;
         }
         
     }

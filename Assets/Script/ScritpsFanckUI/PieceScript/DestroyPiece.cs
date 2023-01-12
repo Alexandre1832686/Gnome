@@ -14,12 +14,7 @@ public class DestroyPiece : MonoBehaviour
                 Inventaire.instance.AjouterPieceGnome(1);
                 Destroy(transform.parent.gameObject);
             }
-            else if (transform.parent.tag == "PieceArgent")
-            {
-                Inventaire.instance.AjouterPieceArgent(1);
-
-                Destroy(transform.parent.gameObject);
-            }
+            
         }
     }
 }
