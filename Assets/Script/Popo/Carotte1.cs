@@ -8,7 +8,7 @@ public class Carotte1 : Enemie
     private void Awake()
     {
         speed = 0.8f;
-        hpMax = 6;
+        hpMax = 4;
     }
 
     // Start is called before the first frame update
