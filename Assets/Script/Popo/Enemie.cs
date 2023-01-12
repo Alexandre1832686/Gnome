@@ -30,10 +30,9 @@ public class Enemie : MonoBehaviour
         if (hpActu <= 0)
         {
             Die();
-            
         }
         RefreshUI();
-        Debug.Log("hp : " + hpActu);
+        
         canBeAttacked = false;
         StartCoroutine(Invincible());
     }
