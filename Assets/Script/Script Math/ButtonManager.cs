@@ -20,7 +20,6 @@ public class ButtonManager : MonoBehaviour
     {
         GameObject timer = GameObject.Find("Square");
         Timer time = timer.GetComponent<Timer>();
-
         time.PauseTimer();
     }
 }
