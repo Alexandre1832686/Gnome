@@ -12,13 +12,15 @@ public class Gnome : MonoBehaviour
     Rigidbody2D rb;
     float inputHorizontal;
     float inputVertical;
+    GameObject fin;
     static int vie = 3,vieMax = 3;
     // Start is called before the first frame update
     void Start()
     {
 
         rb = gameObject.GetComponent<Rigidbody2D>();
-        
+        fin = GameObject.Find("Over");
+        fin.SetActive(false);
         AfficherVie();
     }
 
@@ -48,6 +50,12 @@ public class Gnome : MonoBehaviour
     {
         vie--;
         AfficherVie();
+        if(vie <= 0)
+        {
+            Time.timeScale= 0f;
+            fin.gameObject.SetActive(true);
+            
+        }
     }
 
     private void AfficherVie()
