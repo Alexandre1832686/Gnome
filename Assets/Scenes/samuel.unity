@@ -210,7 +210,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551239866}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 2.411513, y: -0.9838801, z: 0.019121345}
+  m_LocalPosition: {x: 3.567, y: 1.948, z: -1.983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -224,6 +224,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 561919929189345246, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Iris1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044331418767313016, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Shoes2
+      objectReference: {fileID: 0}
     - target: {fileID: 1524178460966323170, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -280,14 +288,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1810433419571118195, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Bisep2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810485315795441261, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Chandail
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159405598971814759, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Coude2
+      objectReference: {fileID: 0}
     - target: {fileID: 2192453194796456280, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
       propertyPath: m_Name
       value: Gnome3d
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311871459947276809, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Cous
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420438723572263219, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Yeux2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425680933486392821, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Cuisse2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2770567201634073246, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Epole2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834332505056705741, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Genous2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2864671945543109665, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Molet1
       objectReference: {fileID: 0}
     - target: {fileID: 3291008543126139590, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a5a3e2efece0b3e4d830b82f764fcea4, type: 2}
+    - target: {fileID: 3443806998219009067, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Chapeau
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468532146803114783, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Besep1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778586347941621270, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Cuisse1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4037361857466360764, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Iris2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498394515407819717, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Main2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665479578788143478, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Main1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741248398363492479, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Epole1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5037175200966367424, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Coude1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5245942281821080879, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Molet2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6553559178599514361, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Nez1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7165433151960972191, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Tete
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244898254415070522, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Trisep1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377137591081805292, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Shoes1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556589242827281255, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Yeux1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643574865383359263, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Trisep2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672500747960394777, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Pentalon
+      objectReference: {fileID: 0}
+    - target: {fileID: 7701082702635568699, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
+      propertyPath: m_Name
+      value: Genous1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da547f0a6b1e6dd408f5eba818f929fb, type: 3}
 --- !u!1 &952089912
@@ -391,6 +503,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80292a755c54e3b44877b19e1451ac51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1013388773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013388770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c31fc5fd76e5094e9290e201a2d020b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pieceTotal: 28
+  pieceAcumuler: 0
+  Invisible: {fileID: 2100000, guid: a7ac9727430a8aa458526dc194116c8b, type: 2}
 --- !u!1 &1014606710
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +598,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014606710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.005252916, y: 0.010505832, z: 0}
+  m_LocalPosition: {x: -0.01, y: 1.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
