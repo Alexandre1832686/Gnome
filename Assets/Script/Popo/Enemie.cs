@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class Enemie : MonoBehaviour
 {
-    float hpMax;
-    float hpActu;
-    public Material invincibleMaterial;
-    public bool canBeAttacked;
+    [HideInInspector] public float hpMax;
+    [HideInInspector] public float hpActu;
+    [HideInInspector] public float speed;
+    [HideInInspector] public bool canBeAttacked;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        hpMax = 20;
-        hpActu = hpMax;
-        RefreshUI();
+        
+        
     }
 
     // Update is called once per frame
@@ -34,20 +33,21 @@ public class Enemie : MonoBehaviour
         RefreshUI();
         
         canBeAttacked = false;
+        Debug.Log("ok");
         StartCoroutine(Invincible());
     }
 
-    void RefreshUI()
+    protected void RefreshUI()
     {
 
     }
 
     IEnumerator Invincible()
     {
-        Material myMaterial = GetComponent<SpriteRenderer>().material;
-        GetComponent<SpriteRenderer>().material = invincibleMaterial;
+        
+        GetComponent<SpriteRenderer>().color = Color.red;
         yield return new WaitForSeconds(2);
-        GetComponent<SpriteRenderer>().material = myMaterial;
+        GetComponent<SpriteRenderer>().color = Color.white;
         canBeAttacked = true;
     }
 
@@ -56,7 +56,7 @@ public class Enemie : MonoBehaviour
         int i = Random.Range(0, 100);
         if(i>70)
         {
-            Instantiate((GameObject)Resources.Load("Prefab/Piece") as GameObject, transform.position, Quaternion.identity);
+            
         }
         Destroy(gameObject);
     }
