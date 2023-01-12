@@ -6,7 +6,6 @@ public class CoinMagnet : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] float speed = 1.5f ;
-    int nbPiece=0;
     float timestamp;
     bool flyToPlayer=false;
     Vector2 playerDirection;
