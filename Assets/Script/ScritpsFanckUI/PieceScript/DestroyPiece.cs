@@ -8,17 +8,17 @@ public class DestroyPiece : MonoBehaviour
     { 
         if(collision.tag=="Player")
         {
-            if(gameObject.tag=="PieceGnome")
+            Debug.Log(gameObject.tag);
+            if(transform.parent.tag == "PieceGnome")
             {
                 Inventaire.instance.AjouterPieceGnome(1);
+                Destroy(transform.parent.gameObject);
             }
-            else if (gameObject.tag == "PieceArgent")
-
+            else if (transform.parent.tag == "PieceArgent")
             {
                 Inventaire.instance.AjouterPieceArgent(1);
-
+                Destroy(transform.parent.gameObject);
             }
-            Destroy(transform.parent.gameObject);
         }
     }
 }

@@ -4094,6 +4094,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0b8cb6d579e09748b0d2afbd2714eea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pieceM: 0
+  pieceGnome: 0
 --- !u!114 &2141949456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4284,7 +4286,7 @@ PrefabInstance:
     - target: {fileID: 7518874818470027671, guid: 5f8ed3fc71c747744b25fc525c1b55e8, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2141949454}
     - target: {fileID: 7518874819945057915, guid: 5f8ed3fc71c747744b25fc525c1b55e8, type: 3}
       propertyPath: m_TagString
       value: Untagged
