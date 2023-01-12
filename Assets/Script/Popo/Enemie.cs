@@ -47,7 +47,7 @@ public class Enemie : MonoBehaviour
         if(gameObject.name == "Doight")
         {
             transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.red;
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
             transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.white;
             canBeAttacked = true;
         }
