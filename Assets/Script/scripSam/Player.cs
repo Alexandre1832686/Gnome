@@ -11,13 +11,13 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     Vector2 mouvement;
     Vector2 mousePos;
-    float Dammage;
+    
     
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        Dammage = 10;
+        
     }
 
     // Update is called once per frame
@@ -28,7 +28,6 @@ public class Player : MonoBehaviour
     }
     void FixedUpdate()
     {
-
         mouvement.x = Input.GetAxis("Horizontal");
         mouvement.y = Input.GetAxis("Vertical");
         rb.MovePosition(rb.position + mouvement * mouveSpeed * Time.fixedDeltaTime);
@@ -39,14 +38,5 @@ public class Player : MonoBehaviour
        transform.GetChild(0).transform.rotation = Quaternion.Euler(0,0, angle);
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if(collision.tag == "Enemie")
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                collision.GetComponent<Enemie>().TakeDammage(Dammage);
-            }
-        }
-    }
+    
 }
