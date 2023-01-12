@@ -29,7 +29,8 @@ public class Enemie : MonoBehaviour
         hpActu -= dammage;
         if (hpActu <= 0)
         {
-            Destroy(gameObject);
+            Die();
+            
         }
         RefreshUI();
         Debug.Log("hp : " + hpActu);
@@ -49,5 +50,15 @@ public class Enemie : MonoBehaviour
         yield return new WaitForSeconds(2);
         GetComponent<SpriteRenderer>().material = myMaterial;
         canBeAttacked = true;
+    }
+
+    void Die()
+    {
+        int i = Random.Range(0, 100);
+        if(i>70)
+        {
+            Instantiate((GameObject)Resources.Load("Prefab/Piece") as GameObject, transform.position, Quaternion.identity);
+        }
+        Destroy(gameObject);
     }
 }
