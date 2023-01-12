@@ -6,7 +6,7 @@ using TMPro;
 public class autoscroll : MonoBehaviour
 {
     float speed = 1;
-    float boundaryTextEnd = 4600.0f;
+    float boundaryTextEnd = 4800.0f;
 
     RectTransform myGorectTransform;
     // Start is called before the first frame update
