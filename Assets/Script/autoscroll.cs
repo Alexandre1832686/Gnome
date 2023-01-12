@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class autoscroll : MonoBehaviour
 {
@@ -15,7 +16,13 @@ public class autoscroll : MonoBehaviour
         myGorectTransform = gameObject.GetComponent<RectTransform>();
         StartCoroutine(AutoScrollText());
     }
-
+    void Update()
+    {
+        if (myGorectTransform.localPosition.y >= boundaryTextEnd)
+        {
+            SceneManager.LoadScene("Level1");
+        }
+    }
     IEnumerator AutoScrollText()
     {
         while(myGorectTransform.localPosition.y<boundaryTextEnd) 
