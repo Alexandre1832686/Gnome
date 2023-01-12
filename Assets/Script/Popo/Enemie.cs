@@ -70,4 +70,11 @@ public class Enemie : MonoBehaviour
         }
         Destroy(gameObject);
     }
+
+
+    virtual public bool Touche()
+    {
+        return true;
+    }
+    
 }
