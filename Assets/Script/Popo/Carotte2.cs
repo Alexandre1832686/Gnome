@@ -39,7 +39,7 @@ public class Carotte2 : Enemie
         a.transform.SetParent(transform);
         yield return new WaitForSeconds(1);
         transform.position = a.transform.position;
-        if (Vector2.Distance(Player.transform.position,transform.GetChild(0).position)<=1.7f)
+        if (Vector2.Distance(Player.transform.position,transform.GetChild(0).position)<=1.2f)
         {
             Player.GetComponent<Gnome>().retirerVie();
         }
