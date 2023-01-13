@@ -33,8 +33,9 @@ public class ShootProjectile : MonoBehaviour
        
     }
 
-    private void Shoot()
+    protected void Shoot()
     {
+        
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
     }
 

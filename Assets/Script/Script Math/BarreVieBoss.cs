@@ -14,25 +14,24 @@ public class BarreVieBoss : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        afficherVie();
-    }
+    //void Update()
+    //{
+    //    afficherVie();
+    //}
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Destroy(boss);
-        if (boss != null)
-        {
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (boss != null)
+    //    {
             
-        }
-    }
+    //    }
+    //}
 
-    private void afficherVie()
-    {
-        float width = boss.hpActu * 1000/boss.hpMax;
+    //private void afficherVie()
+    //{
+    //    float width = boss.hpActu * 1000/boss.hpMax;
         
-        var theBarRectTransform = image.transform as RectTransform;
-        theBarRectTransform.sizeDelta = new Vector2(width, theBarRectTransform.sizeDelta.y);
-    }
+    //    var theBarRectTransform = image.transform as RectTransform;
+    //    theBarRectTransform.sizeDelta = new Vector2(width, theBarRectTransform.sizeDelta.y);
+    //}
 }
