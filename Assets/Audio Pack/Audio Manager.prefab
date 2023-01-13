@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5372316592967597594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5372316592967597592}
+  - component: {fileID: 5372316592967597593}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5372316592967597592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5372316592967597594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.691734, y: -1.3529122, z: -0.10963155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5372316592967597593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5372316592967597594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08e1f045203e8846823799c870b3cf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: walk
+    clip: {fileID: 8300000, guid: 2c26005a75c99ef45989d27baa3a4bc0, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: ouch
+    clip: {fileID: 8300000, guid: f6e8601f64b0ffe46a7ecf088bf03407, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: hit
+    clip: {fileID: 8300000, guid: ebc4217d066b44446bc612466f9b2cdf, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: gnome attack
+    clip: {fileID: 8300000, guid: 1286dcdd10f00cd4bb9861f60532a21b, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: gnome happy
+    clip: {fileID: 8300000, guid: 5eedfbd3026b3264299c5f7b4f6bda4d, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: gnome damage
+    clip: {fileID: 8300000, guid: 70d4a7a8f721bcd4ab716c863cf8bb18, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: no hit
+    clip: {fileID: 8300000, guid: 25c68189d313437489a492fc0e907fea, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: corn death
+    clip: {fileID: 8300000, guid: 3556328053cd9944892757e2d2edf8b6, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: coin taken
+    clip: {fileID: 8300000, guid: bedb6d05963d3bc449979336614c3470, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: potato death
+    clip: {fileID: 8300000, guid: ea2aafcd54f2b2444b7fef9ebc7c31d7, type: 3}
+    volume: 0.5
+    source: {fileID: 0}
+  - name: onclick
+    clip: {fileID: 8300000, guid: d432f0ae79748ef4aa895a3c61a4f803, type: 3}
+    volume: 1
+    source: {fileID: 0}

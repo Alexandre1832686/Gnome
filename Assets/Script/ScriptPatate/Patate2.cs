@@ -6,7 +6,7 @@ using UnityEngine;
 public class Patate2 : Enemie
 {
     private GameObject redLane;
-
+    [SerializeField] GameObject PieceGnomes;
 
     private bool isRolling;
     private Vector3 stoper;
@@ -14,8 +14,8 @@ public class Patate2 : Enemie
 
     private void Awake()
     {
-        speed = 0.5f;
-        hpMax = 8;
+        speed = 1f;
+        hpMax = 24;
 
     }
 
@@ -57,11 +57,17 @@ public class Patate2 : Enemie
         }
     }
 
-
+    protected override void Die()
+    {
+        int i = Random.Range(0, 100);
+        Instantiate(PieceGnomes, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
 
     IEnumerator WaitToShoot()
     {
-        yield return new WaitForSeconds(2);
+        
+        yield return new WaitForSeconds(Random.Range(0.5f, 1.5f));
         stoper = redLane.GetComponent<Redlane1>().GetStopper();
         isRolling = true;
     }
