@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Gnome3D : MonoBehaviour
@@ -9,10 +10,12 @@ public class Gnome3D : MonoBehaviour
     [SerializeField] private int pieceAcumuler;
     GameObject currentModel;
     [SerializeField] Material Invisible;
+    [SerializeField] Button but;
     
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(ShowButton());
         currentModel = gameObject;
         pieceAcumuler = Inventaire.pieceGnome;
         for(int i=0; i<pieceTotal-pieceAcumuler; i++)
@@ -33,7 +36,7 @@ public class Gnome3D : MonoBehaviour
         
     }
 
-    private void ChangementLevel()
+    public void ChangementLevel()
     {
         if(pieceAcumuler ==1)
         {
@@ -50,5 +53,10 @@ public class Gnome3D : MonoBehaviour
 
     }
    
+    IEnumerator ShowButton()
+    {
+        yield return new WaitForSeconds(2);
+        but.gameObject.SetActive(true);
+    }
     
 }
