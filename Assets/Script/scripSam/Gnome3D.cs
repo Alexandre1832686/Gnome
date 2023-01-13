@@ -50,6 +50,10 @@ public class Gnome3D : MonoBehaviour
         {
             SceneManager.LoadScene("map/Level5");
         }
+        if (pieceAcumuler == 4)
+        {
+            SceneManager.LoadScene("Scenes/EndGame");
+        }
 
     }
    
