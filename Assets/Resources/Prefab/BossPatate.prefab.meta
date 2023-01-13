@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Resources/Prefab/BossPatate.prefab.meta
 guid: 46d916ab615547f4ab2f8838f5a1fa28
 PrefabImporter:
+=======
+guid: 8557a142596237e40a900e5488fc19e3
+NativeFormatImporter:
+>>>>>>> Stashed changes:Assets/Resources/Prefab/Gnome.controller.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
