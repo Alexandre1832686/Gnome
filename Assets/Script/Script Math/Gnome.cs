@@ -1,4 +1,4 @@
-using SuperTiled2Unity.Editor;
+
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -12,14 +12,14 @@ public class Gnome : MonoBehaviour
     Rigidbody2D rb;
     float inputHorizontal;
     float inputVertical;
-    GameObject fin;
+    [SerializeField]GameObject fin;
     static int vie = 3,vieMax = 3;
     // Start is called before the first frame update
     void Start()
     {
 
         rb = gameObject.GetComponent<Rigidbody2D>();
-        fin = GameObject.Find("Over");
+        
         fin.SetActive(false);
         AfficherVie();
     }
