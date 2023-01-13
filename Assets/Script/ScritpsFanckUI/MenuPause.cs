@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MenuPause : MonoBehaviour
 {
+    GameObject optionMenu;
+    GameObject menuPause;
     public void BackToMainMenu()
     {
         SceneManager.LoadScene("Scenes/Frankou");
@@ -12,14 +14,20 @@ public class MenuPause : MonoBehaviour
 
     private void Start()
     {
-        GameObject optionMenu = GameObject.Find("OptionsMenu");
-        GameObject menuPause = GameObject.Find("");
+         optionMenu = GameObject.Find("OptionsMenu");
+         menuPause = GameObject.Find("MenuPause");
+        
         optionMenu.SetActive(false);
-
+        menuPause.SetActive(true);
     }
     public void GoToOption()
     {
-        /*menuPrincipale.SetActive(false);
-        optionMenu.SetActive(true);*/
+       menuPause.SetActive(false);
+        optionMenu.SetActive(true);
+    }
+    public void GoBackFromOption()
+    {
+        optionMenu.SetActive(false);
+        menuPause.SetActive(true);
     }
 }
