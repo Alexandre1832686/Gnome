@@ -13,7 +13,7 @@ public class rotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(transform.position, transform.up, Time.deltaTime * 8); 
+        transform.RotateAround(transform.position, transform.up, Time.deltaTime * 50); 
     }
 
  

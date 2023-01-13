@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gnome3D : MonoBehaviour
 {
-    [SerializeField] private int pieceTotal=28;
+    [SerializeField] private int pieceTotal=4;
     [SerializeField] private int pieceAcumuler;
     GameObject currentModel;
     [SerializeField] Material Invisible;
@@ -13,10 +13,14 @@ public class Gnome3D : MonoBehaviour
     void Start()
     {
         currentModel = gameObject;
-        pieceAcumuler = 20;
+        pieceAcumuler = Inventaire.pieceGnome;
         for(int i=0; i<pieceTotal-pieceAcumuler; i++)
         {
-            currentModel.transform.GetChild(i).GetComponent<MeshRenderer>().material= Invisible;
+            for(int j=0;j<currentModel.transform.GetChild(i).childCount;j++)
+            {
+                currentModel.transform.GetChild(i).GetChild(j).GetComponent<MeshRenderer>().material= Invisible;
+                
+            }
         
         }
     }
