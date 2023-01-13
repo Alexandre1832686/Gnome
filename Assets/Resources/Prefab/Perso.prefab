@@ -340,7 +340,6 @@ GameObject:
   - component: {fileID: 2363722117165907368}
   - component: {fileID: 2363722117165907369}
   - component: {fileID: 2363722117165907367}
-  - component: {fileID: 8276449595897141311}
   - component: {fileID: 925228613892230394}
   m_Layer: 0
   m_Name: Perso
@@ -468,19 +467,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouveSpeed: 1
---- !u!114 &8276449595897141311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2363722117165907372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0b8cb6d579e09748b0d2afbd2714eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pieceGnome: 0
 --- !u!114 &925228613892230394
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,6 +10,4 @@ public static class Inventaire
     {
         pieceGnome += 1;
     }
-
-
 }
