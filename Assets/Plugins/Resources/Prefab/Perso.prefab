@@ -526,6 +526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imagecoeur: {fileID: 0}
+  fin: {fileID: 0}
 --- !u!95 &5094541108344293360
 Animator:
   serializedVersion: 5
