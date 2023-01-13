@@ -20,7 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -6074,19 +6074,19 @@ TextureImporter:
       Sprite-Gnome_252: -441796563
       Sprite-Gnome_261: 418821037
       Sprite-Gnome_11: -1023324915
-      Sprite-Gnome_73: 2080499296
       Sprite-Gnome_189: 901376869
+      Sprite-Gnome_73: 2080499296
       Sprite-Gnome_2: 974931655
       Sprite-Gnome_90: 1545037546
       Sprite-Gnome_95: -1607974698
       Sprite-Gnome_55: 908997675
       Sprite-Gnome_26: -1018929495
-      Sprite-Gnome_118: 1528824501
       Sprite-Gnome_250: 209502288
-      Sprite-Gnome_213: -623910740
+      Sprite-Gnome_118: 1528824501
       Sprite-Gnome_97: -1356853593
       Sprite-Gnome_40: 983820864
       Sprite-Gnome_267: -859834717
+      Sprite-Gnome_213: -623910740
       Sprite-Gnome_147: -636519547
       Sprite-Gnome_6: 1705429743
       Sprite-Gnome_53: -1758531481
@@ -6196,8 +6196,9 @@ TextureImporter:
       Sprite-Gnome_245: 959448903
       Sprite-Gnome_119: 585576023
       Sprite-Gnome_87: -1656238199
-      Sprite-Gnome_125: -1474735663
       Sprite-Gnome_196: 1531007794
+      Sprite-Gnome_255: 1836156881
+      Sprite-Gnome_125: -1474735663
       Sprite-Gnome_168: -709180982
       Sprite-Gnome_185: -2038208054
       Sprite-Gnome_96: -50917763
@@ -6207,7 +6208,6 @@ TextureImporter:
       Sprite-Gnome_47: -371746666
       Sprite-Gnome_278: -192000082
       Sprite-Gnome_58: -737574974
-      Sprite-Gnome_255: 1836156881
       Sprite-Gnome_42: 484761044
       Sprite-Gnome_274: 1198183271
       Sprite-Gnome_208: -1103571321
