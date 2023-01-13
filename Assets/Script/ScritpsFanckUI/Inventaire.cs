@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class Inventaire 
 {
-    static int pieceGnome=0;
+    public static int pieceGnome=0;
 
     public static void AjouterPieceGnome()
     {
