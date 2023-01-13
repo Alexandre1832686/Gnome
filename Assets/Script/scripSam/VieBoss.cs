@@ -12,7 +12,7 @@ public class VieBoss : MonoBehaviour
     void Start()
     {
        premiereImage.SetActive(false);
-       
+        afficherVie();
         
     }
 
