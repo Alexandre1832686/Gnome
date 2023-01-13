@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Gnome3D : MonoBehaviour
 {
@@ -30,6 +31,23 @@ public class Gnome3D : MonoBehaviour
     {
         
         
+    }
+
+    private void ChangementLevel()
+    {
+        if(pieceAcumuler ==1)
+        {
+            SceneManager.LoadScene("map/Level2");
+        }
+        if(pieceAcumuler ==2)
+        {
+            SceneManager.LoadScene("map/Level3");
+        }
+        if(pieceAcumuler ==3)
+        {
+            SceneManager.LoadScene("map/Level5");
+        }
+
     }
    
     
