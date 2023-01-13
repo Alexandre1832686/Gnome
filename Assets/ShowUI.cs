@@ -5,28 +5,34 @@ using UnityEngine.UI;
 
 public class ShowUI : MonoBehaviour
 {
-    public GameObject uiGObject;
-    public string text;
+    public GameObject canvas;
+    public Text textPopUp;
+    public string Message;
+
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    void OnTriggerEnter(Collider player)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        if(player.gameObject.tag == "Player")
+        
+        if (collider.gameObject.tag == "Player")
         {
-            GameObject a = Instantiate(uiGObject);
-            a.transform.GetChild(0).GetComponent<Text>().text = text;
+            canvas.SetActive(true);
+            textPopUp.text = Message;
             gameObject.GetComponent<Collider2D>().enabled = false;
             StartCoroutine(TimeLapse());
         }
+        
     }
+
     IEnumerator TimeLapse()
     {
         yield return new WaitForSeconds(5);
-        Destroy(uiGObject);
-        Destroy(gameObject);
+        textPopUp.text = "";
+        canvas.SetActive(false);
+
     }
 }

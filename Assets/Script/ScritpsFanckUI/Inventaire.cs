@@ -2,26 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventaire : MonoBehaviour
+public static class Inventaire 
 {
-    [SerializeField]   int pieceGnome=0;
-    
-    public static Inventaire instance;
+    public static int pieceGnome=0;
 
-    private void Awake()
+    public static void AjouterPieceGnome()
     {
-        if(instance != null)
-        {
-            Debug.LogWarning("plus d'un inventaire dans la scène");
-            return;
-        }
-        instance = this;
+        pieceGnome += 1;
     }
-
-    public void AjouterPieceGnome(int count)
-    {
-        pieceGnome += count;
-    }
-
-
 }
