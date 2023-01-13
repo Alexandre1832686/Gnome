@@ -11,7 +11,7 @@ public class PlayerAttack : MonoBehaviour
     void Start()
     {
         isAttacking = false;
-        Dammage = 8;
+        Dammage = 2;
     }
 
     // Update is called once per frame
