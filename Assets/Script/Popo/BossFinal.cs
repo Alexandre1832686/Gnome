@@ -11,6 +11,7 @@ public class BossFinal : Enemie
     bool doightCanMove;
     Transform target;
     GameObject Player;
+    [SerializeField] GameObject PieceGnomes;
 
 
     private void Awake()
@@ -29,7 +30,7 @@ public class BossFinal : Enemie
         canBeAttacked = true;
         hpActu = hpMax;
         RefreshUI();
-        StartCoroutine(Attack());
+        
     }
 
     // Update is called once per frame
@@ -43,6 +44,11 @@ public class BossFinal : Enemie
         {
             Doight.transform.position = Vector2.MoveTowards(transform.position, DoightPositionRepos, 30 * Time.deltaTime);
         }
+    }
+
+    public void StartFight()
+    {
+        StartCoroutine(Attack());
     }
 
     IEnumerator Attack()
@@ -66,5 +72,12 @@ public class BossFinal : Enemie
     public override void TakeDammage(float dammage)
     {
         base.TakeDammage(dammage);
+    }
+
+    protected override void Die()
+    {
+        int i = Random.Range(0, 100);
+        Instantiate(PieceGnomes, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }

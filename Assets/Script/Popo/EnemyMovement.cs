@@ -6,6 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
     float Speed;
     Transform Target;
+    
     float distanceToStop = 0.4f;
     Rigidbody2D rigidbody2d;
    
@@ -16,6 +17,10 @@ public class EnemyMovement : MonoBehaviour
         Target = null;
         rigidbody2d = GetComponent<Rigidbody2D>();
         Speed = gameObject.GetComponent<Enemie>().speed;
+        if(transform.tag=="Patate")
+        {
+            distanceToStop = 0.9f;
+        }
     }
 
     // Update is called once per frame
@@ -29,6 +34,7 @@ public class EnemyMovement : MonoBehaviour
 
         if (Target != null)
         {
+           
             if(Vector2.Distance(Target.position,transform.position)>=distanceToStop)
             {
                 Vector3 toTarg = (Target.position - transform.position).normalized;
