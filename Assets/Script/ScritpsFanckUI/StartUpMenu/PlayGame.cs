@@ -32,13 +32,15 @@ public class PlayGame : MonoBehaviour
     /// </summary>
     public void BackToPrevious()
     {
-        if(optionMenu.activeSelf)
+        if (optionMenu.activeSelf)
         {
+            FindObjectOfType<audiomanager>().Play("onclick");
             optionMenu.SetActive(false);
             menuPrincipale.SetActive(true);
         }
         else
         {
+            FindObjectOfType<audiomanager>().Play("onclick");
             selectLevel.SetActive(false);
             menuPrincipale.SetActive(true);
         }
@@ -46,16 +48,19 @@ public class PlayGame : MonoBehaviour
     }
     public void GoToOption()
     {
+        FindObjectOfType<audiomanager>().Play("onclick");
         menuPrincipale.SetActive(false);
         optionMenu.SetActive(true);
     }
     public void GoToLevelSel()
     {
+        FindObjectOfType<audiomanager>().Play("onclick");
         menuPrincipale.SetActive(false);
         selectLevel.SetActive(true);
     }
     public void QuitGame()
     {
+        FindObjectOfType<audiomanager>().Play("onclick");
         Application.Quit();
     }
 }
