@@ -30,7 +30,6 @@ public class BossFinal : Enemie
         canBeAttacked = true;
         hpActu = hpMax;
         RefreshUI();
-        
     }
 
     // Update is called once per frame
