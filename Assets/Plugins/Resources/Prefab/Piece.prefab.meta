@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d512fde70ac73b54bb70d5098d338eb8
+=======
+guid: 7767ae0c5ec613047acb7d23f0b41886
+>>>>>>> parent of 6ec51f0... Merge branch 'main' of https://github.com/Alexandre1832686/Gnome
 PrefabImporter:
   externalObjects: {}
   userData: 
