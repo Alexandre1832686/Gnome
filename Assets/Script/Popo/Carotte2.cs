@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Carotte2 : Enemie
 {
+    [SerializeField] GameObject PieceGnomes;
     public bool untargetable;
     [SerializeField] GameObject troue;
     GameObject Player;
@@ -35,12 +36,14 @@ public class Carotte2 : Enemie
         yield return new WaitForSeconds(2);
         untargetable = true;
         GameObject a=Instantiate(troue, Player.transform.position, Quaternion.identity);
+        a.transform.SetParent(transform);
         yield return new WaitForSeconds(1);
-        if(Vector2.Distance(Player.transform.position,transform.position)<=2f)
+        transform.position = a.transform.position;
+        if (Vector2.Distance(Player.transform.position,transform.GetChild(0).position)<=1.7f)
         {
             Player.GetComponent<Gnome>().retirerVie();
         }
-        transform.position = a.transform.position;
+        
         Destroy(a);
         StartCoroutine(Attack());
     }
@@ -51,5 +54,12 @@ public class Carotte2 : Enemie
         {
             StartCoroutine(Attack());
         }
+    }
+
+    protected override void Die()
+    {
+        int i = Random.Range(0, 100);
+        Instantiate(PieceGnomes, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }
