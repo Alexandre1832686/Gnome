@@ -65,7 +65,7 @@ public class Gnome : MonoBehaviour
 
         for (int y = 0; y < vie; y++)
         {
-            Debug.Log(vie);
+            
             
             imagecoeur.transform.GetChild(y).gameObject.SetActive(true);
         }
@@ -75,7 +75,7 @@ public class Gnome : MonoBehaviour
     public void AjouterVie()
     {
         vieMax ++;
-        Debug.Log(vieMax);   
+         
         imagecoeur.transform.GetChild(vie - 1).gameObject.SetActive(true);
         vie = vieMax;
     }

@@ -33,7 +33,7 @@ public class Enemie : MonoBehaviour
         RefreshUI();
         
         canBeAttacked = false;
-        Debug.Log("ok");
+        
         StartCoroutine(Invincible());
     }
 
@@ -61,7 +61,7 @@ public class Enemie : MonoBehaviour
         
     }
 
-    void Die()
+    protected virtual void Die()
     {
         int i = Random.Range(0, 100);
         if(i>70)
