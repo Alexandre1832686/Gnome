@@ -13,7 +13,7 @@ public class Gnome3D : MonoBehaviour
     void Start()
     {
         currentModel = gameObject;
-        pieceAcumuler = 2;
+        pieceAcumuler = Inventaire.pieceGnome;
         for(int i=0; i<pieceTotal-pieceAcumuler; i++)
         {
             for(int j=0;j<currentModel.transform.GetChild(i).childCount;j++)
