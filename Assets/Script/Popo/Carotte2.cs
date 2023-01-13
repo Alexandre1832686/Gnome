@@ -58,7 +58,7 @@ public class Carotte2 : Enemie
 
     protected override void Die()
     {
-        int i = Random.Range(0, 100);
+        
         Instantiate(PieceGnomes, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
