@@ -8,7 +8,7 @@ public class EnnemyBulletScript : MonoBehaviour
 {
     private GameObject player;
     private Rigidbody2D rb;
-    public float force;
+    private float force=2;
     Vector3 direction;
     private float timer;
     // Start is called before the first frame update
