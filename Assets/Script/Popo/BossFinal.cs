@@ -59,7 +59,7 @@ public class BossFinal : Enemie
         Destroy(shadow);
         doightCanMove = true;
         yield return new WaitForSecondsRealtime(0.2f);
-        if (Vector2.Distance(transform.position, Player.transform.position) <= 2)
+        if (Vector2.Distance(transform.position, Player.transform.position) <= 1.2f)
         {
             Player.GetComponent<Gnome>().retirerVie();
         }

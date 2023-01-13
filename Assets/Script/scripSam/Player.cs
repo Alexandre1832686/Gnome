@@ -15,7 +15,6 @@ public class Player : MonoBehaviour
     Vector2 mousePos;
     Animator animator;
 
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -53,7 +52,6 @@ public class Player : MonoBehaviour
         {
             ChangeAnimation();
         }
-        
     }
 
     void ChangeAnimation()
