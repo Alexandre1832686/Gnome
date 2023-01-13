@@ -27,6 +27,11 @@ public class PlayGame : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void GoToNiveau(int niveau)
+    {//pas oublie que level5 is actually level 4
+        SceneManager.LoadScene("map/Level"+niveau);
+    }
     /// <summary>
     /// Permet de retourner au menuPrincipale principale
     /// </summary>
