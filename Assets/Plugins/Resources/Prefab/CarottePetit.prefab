@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7545066361121848609}
   - component: {fileID: 8795901737955589545}
   - component: {fileID: 8795901737955589544}
+  - component: {fileID: 5840933670759077532}
   m_Layer: 0
   m_Name: CarottePetit
   m_TagString: Enemie
@@ -170,3 +171,23 @@ MonoBehaviour:
   hpActu: 0
   speed: 0
   canBeAttacked: 0
+--- !u!95 &5840933670759077532
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7545066361121848671}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 701abf09607a91c41aeccd38d5359e7d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
