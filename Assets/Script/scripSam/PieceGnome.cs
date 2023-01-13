@@ -22,7 +22,7 @@ public class PieceGnome : MonoBehaviour
         if(collision.tag == "Player")
         {
             Player.GetComponent<Gnome>().AjouterVie();
-            SceneManager.LoadScene("map/Level2");
+            SceneManager.LoadScene("Scenes/GnomeTourn");
         }
     }
 }
