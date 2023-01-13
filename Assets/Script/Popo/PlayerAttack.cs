@@ -44,6 +44,10 @@ public class PlayerAttack : MonoBehaviour
             }
         }
     }
+
+
+    
+
     IEnumerator attack()
     {
         yield return new WaitForSeconds(1);
