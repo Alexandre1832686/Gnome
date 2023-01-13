@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: e80de765e03ab7a41a4ee7f43f4bfb8c
+=======
+guid: 68429174de393774e80c00f75f8e0a8d
+>>>>>>> parent of 6ec51f0... Merge branch 'main' of https://github.com/Alexandre1832686/Gnome
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
