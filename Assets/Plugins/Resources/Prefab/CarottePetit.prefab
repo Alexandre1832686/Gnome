@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7545066361121848609}
   - component: {fileID: 8795901737955589545}
   - component: {fileID: 8795901737955589544}
-  - component: {fileID: 5840933670759077532}
+  - component: {fileID: 749287448}
   m_Layer: 0
   m_Name: CarottePetit
   m_TagString: Enemie
@@ -30,9 +30,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7545066361121848671}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.9402034, y: 0.117865205, z: 8.742696}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Sprite: {fileID: 250778978, guid: ebff33c6f2774c14881d09d1b596258b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -152,9 +152,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.21133333}
+  m_Offset: {x: 0, y: 0.05}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.2
 --- !u!114 &8795901737955589544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
   hpActu: 0
   speed: 0
   canBeAttacked: 0
---- !u!95 &5840933670759077532
+--- !u!95 &749287448
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
