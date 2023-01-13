@@ -11,7 +11,7 @@ public class PlayerAttack : MonoBehaviour
     void Start()
     {
         isAttacking = false;
-        Dammage = 8;
+        Dammage = 30;
     }
 
     // Update is called once per frame
@@ -32,7 +32,6 @@ public class PlayerAttack : MonoBehaviour
     {
         if (collision.tag == "Enemie" && collision.isTrigger == false)
         {
-            
             if (collision.GetComponent<Enemie>().canBeAttacked)
             {
                 

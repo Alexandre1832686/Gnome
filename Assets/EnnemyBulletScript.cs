@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.AnimatedValues;
 using UnityEngine;
 
 public class EnnemyBulletScript : MonoBehaviour
@@ -8,15 +9,16 @@ public class EnnemyBulletScript : MonoBehaviour
     private GameObject player;
     private Rigidbody2D rb;
     public float force;
-
+    Vector3 direction;
     private float timer;
     // Start is called before the first frame update
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");
 
-        Vector3 direction = player.transform.position - transform.position;
+        direction = player.transform.position - transform.position;
         rb.velocity = new Vector2(direction.x, direction.y ).normalized * force;
 
     }
@@ -25,7 +27,7 @@ public class EnnemyBulletScript : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer>10)
+        if(timer>2)
         {
             Destroy(gameObject);
         }
@@ -33,9 +35,11 @@ public class EnnemyBulletScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if(collision.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
+            player.GetComponent<Gnome>().retirerVie();
         }
     }
+    
+    
 }
