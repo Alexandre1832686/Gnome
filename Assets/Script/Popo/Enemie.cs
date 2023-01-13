@@ -23,7 +23,7 @@ public class Enemie : MonoBehaviour
         
     }
 
-    public void TakeDammage(float dammage)
+    public virtual void TakeDammage(float dammage)
     {
         hpActu -= dammage;
         if (hpActu <= 0)
@@ -33,7 +33,7 @@ public class Enemie : MonoBehaviour
         RefreshUI();
         
         canBeAttacked = false;
-        Debug.Log("ok");
+        
         StartCoroutine(Invincible());
     }
 
@@ -44,14 +44,24 @@ public class Enemie : MonoBehaviour
 
     IEnumerator Invincible()
     {
+        if(gameObject.name == "Doight")
+        {
+            transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.red;
+            yield return new WaitForSeconds(1);
+            transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.white;
+            canBeAttacked = true;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().color = Color.red;
+            yield return new WaitForSeconds(2);
+            GetComponent<SpriteRenderer>().color = Color.white;
+            canBeAttacked = true;
+        }
         
-        GetComponent<SpriteRenderer>().color = Color.red;
-        yield return new WaitForSeconds(2);
-        GetComponent<SpriteRenderer>().color = Color.white;
-        canBeAttacked = true;
     }
 
-    void Die()
+    protected virtual void Die()
     {
         int i = Random.Range(0, 100);
         if(i>70)
@@ -60,4 +70,11 @@ public class Enemie : MonoBehaviour
         }
         Destroy(gameObject);
     }
+
+
+    virtual public bool Touche()
+    {
+        return true;
+    }
+    
 }

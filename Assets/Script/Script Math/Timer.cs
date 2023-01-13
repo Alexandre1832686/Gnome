@@ -10,7 +10,6 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI textTimer;
     [SerializeField] Canvas Menu_Pause;
     float Timers;
-    int minutes = 0;
     bool pause = true;
     private TimeSpan timePlaying;
     private float timePassed;

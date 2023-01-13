@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Carotte2 : Enemie
 {
+    [SerializeField] GameObject PieceGnomes;
+    public bool untargetable;
+    [SerializeField] GameObject troue;
+    GameObject Player;
+
     private void Awake()
     {
         speed = 1.2f;
@@ -16,6 +21,8 @@ public class Carotte2 : Enemie
         canBeAttacked = true;
         hpActu = hpMax;
         RefreshUI();
+        Player = GameObject.Find("Perso");
+        
     }
 
     // Update is called once per frame
@@ -24,5 +31,35 @@ public class Carotte2 : Enemie
 
     }
 
+    IEnumerator Attack()
+    {
+        yield return new WaitForSeconds(2);
+        untargetable = true;
+        GameObject a=Instantiate(troue, Player.transform.position, Quaternion.identity);
+        a.transform.SetParent(transform);
+        yield return new WaitForSeconds(1);
+        transform.position = a.transform.position;
+        if (Vector2.Distance(Player.transform.position,a.transform.position)<=1.05f)
+        {
+            Player.GetComponent<Gnome>().retirerVie();
+        }
+        
+        Destroy(a);
+        StartCoroutine(Attack());
+    }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            StartCoroutine(Attack());
+        }
+    }
+
+    protected override void Die()
+    {
+        int i = Random.Range(0, 100);
+        Instantiate(PieceGnomes, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
 }
