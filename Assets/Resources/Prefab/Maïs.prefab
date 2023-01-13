@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 9025636792535642439}
   - component: {fileID: 9025636792535642438}
   - component: {fileID: 9025636792535642489}
+  - component: {fileID: 6635511109902775224}
   m_Layer: 0
   m_Name: "Ma\xEFs"
   m_TagString: Untagged
@@ -131,3 +132,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 6072822809297788271, guid: 562b8d78d04972243a1567b791cddc4b, type: 3}
   bulletPos: {fileID: 9025636792187653788}
+--- !u!95 &6635511109902775224
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9025636792535642488}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aa709cb993e46714c821bedb2599fe14, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
