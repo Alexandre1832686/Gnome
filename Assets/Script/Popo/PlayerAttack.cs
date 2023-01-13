@@ -30,7 +30,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag == "Enemie" && collision.isTrigger == false)
+        if (collision.tag == "Enemie")
         {
             if (collision.GetComponent<Enemie>().canBeAttacked)
             {
