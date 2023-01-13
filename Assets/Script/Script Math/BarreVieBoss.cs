@@ -16,12 +16,11 @@ public class BarreVieBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        afficherVie();
+         
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(boss);
         if (boss != null)
         {
             
